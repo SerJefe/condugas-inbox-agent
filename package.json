@@ -1,0 +1,22 @@
+{
+  "name": "condugas-inbox-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "worker": "node src/worker.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.3.2",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "@microsoft/microsoft-graph-client": "^3.0.3",
+    "openai": "^4.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
